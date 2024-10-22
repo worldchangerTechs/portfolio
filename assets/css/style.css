@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2024 worldchangertechs
  */
 
 
@@ -100,6 +100,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.wassup{
+  color: green;
+  border-bottom: aqua;
+  background-color: green;
+  padding: 0px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  justify-content: space-between;
+
 }
 
 li { list-style: none; }
@@ -255,6 +268,14 @@ body {
   font-family: var(--ff-poppins);
   font-size: 2.4rem;
 }
+.logo:hover{
+  color: grey;
+  background-color: aquamarine;
+  border-radius: 20px;
+  width: 120%;
+  height: auto;
+  text-align: center;
+}
 
 .nav-toggle-btn { font-size: 3rem; }
 
@@ -306,7 +327,7 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("wiii.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -314,6 +335,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  background-color: #2a0e47;
 }
 
 .hero-banner {
